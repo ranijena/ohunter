@@ -1,0 +1,77 @@
+*{
+    padding: 0%;
+
+    margin: 0%;
+    font-family:sans-serif ;
+}
+.menu-bar
+{
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+}
+.tab{
+    margin-left: 2%;
+}
+.mandatory{
+    margin-left: 83%;
+}
+
+/*--------------------------------------- bodycolor----------------------- */
+
+.modal-header{
+background-image:linear-gradient(to right,  #7ce08a ,#6db9ef);
+margin-top: -8px;
+padding-left: 600px;
+}
+
+.modal-body{
+    background-color: #d9e9e3;
+}
+
+
+/* -----------------------------qualification----------------------------------- */
+
+.ar1{
+    padding-left: 10%;
+}
+.ar2{
+    padding-left: 35%;
+}
+.ar5{
+   padding-left: 35%;
+}
+.ar4{
+    padding-left: 5%;
+}
+.form-label{
+    margin-left: 7%;
+}
+.form-control{
+    margin-left: 6%;
+}
+.check{
+    margin-left: 13%
+}
+.form-labe5{
+    margin-top: 2%;
+}
+.form-labe6{
+    margin-top: 6%;
+    margin-left: 26%;
+}
+.arp2{
+    margin-top: 4%;
+    margin-left: 8%;
+}
+.arp1{
+    margin-top: 4%;
+    margin-left: 8%;
+}
+.form-control{
+    margin-left: 0%;
+}
+.btn-success{
+    margin-left: 160px;
+}
+SUBMIT{
+    margin-left: 15%;
+}

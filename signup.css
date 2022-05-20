@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+
+    margin: 0%;
+    font-family:sans-serif ;
+}
+.menu-bar
+{
+    background-image: linear-gradient(to right, #6db9ef, #7ce08a);
+}
+
+#box1{
+    background-color: #d8d8e4;
+    padding: 70px 0;
+    height:650px;
+    
+}
+.under1{
+    background-color: rgb(64, 141, 124);
+    margin: auto;
+    padding: 100px;
+    border-radius: 40px;
+    
+}
+.under2{
+    background-color: rgb(64, 141, 124);
+    margin: auto;
+    padding: 100px;
+    border-radius: 40px;
+    padding-right: 200px;
+    padding-left: 180px;;
+}
+.container{
+    display: flex;
+}
+.table1{
+    color: #fbfcfb;
+}
+.table2{
+    color: #fbfcfb;
+}
+.lighter{
+    padding-left: 400px;
+
+}
+.float-end{
+    margin-left: 400px;
+    margin-top: 1%;
+    background-color: rgb(106, 172, 150);
