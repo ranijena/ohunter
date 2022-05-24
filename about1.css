@@ -1,0 +1,85 @@
+.heading{
+    font-size: 5rem;
+    color: rgb(152, 100, 255);
+    text-align: center;
+    padding:0 1rem ;
+    padding-top: 6rem;
+    letter-spacing:.2rem;
+
+}
+.title{
+    padding: 0 1rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(144, 141, 141);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.about .row{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.about .row .image img{
+    height:70vh;
+    width:50vw;
+}
+.about .row .content{
+    padding-left:  5rem; 
+    padding-top: 10%;
+
+}
+.about .row .content h3{
+    font-size: 3rem;
+    color: var(black);
+
+}
+.about .row .content p{
+    font-size: 1.6rem;
+    color: #999;
+    padding: 1rem 0;
+
+}
+.about .row .content button{
+    height: 3.5rem;
+    width: 17rem;
+    background: rgb(63, 63, 161);
+    color: #fff;
+    border: none;
+    border-radius: 5rem;
+    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .3);
+    cursor: pointer;
+    font-size: 2rem;
+    transition: .2s;
+}
+.about .row .content button:hover{
+    letter-spacing: .2rem;
+    opacity: .8;
+}
+.about.row{
+    flex-flow:column-reverse;
+}
+.about.row .image img{
+    height: 60vh;
+    width: 90vw;
+}
+.about.row.content p{
+    padding: 0 2.5rem;
+}
+
