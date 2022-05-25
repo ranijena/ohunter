@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap');
+
+:root {
+    --pink: #FF046F;
+    --violet: #C63BFA;
+
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    text-decoration: none;
+    outline: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*::selection {
+    background-color: var(--pink);
+    color: white;
+
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+
+}
+
+body {
+    background: #e9ebf2;
+    ;
+
+}
+
+.heading {
+    font-size: 5rem;
+    color: rgb(164, 47, 135);
+    text-align: center;
+    padding: 0 1rem;
+    padding-top: 6rem;
+    letter-spacing: .2rem;
+
+}
+
+.title {
+    padding: 0 1rem;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 400;
+    color: rgb(144, 141, 141);
+}
+
+.about .row {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about .row .image img {
+    height: 70vh;
+    width: 50vw;
+}
+
+.about .row .content {
+    padding-left: 5rem;
+    padding-top: 10%;
+
+}
+
+.about .row .content h3 {
+    font-size: 3rem;
+    color: var(black);
+
+}
+
+.about .row .content p {
+    font-size: 1.6rem;
+    color: #999;
+    padding: 1rem 0;
+
+}
+
+.about .row .content button {
+    height: 3.5rem;
+    width: 17rem;
+    background: rgb(63, 63, 161);
+    color: #fff;
+    border: none;
+    border-radius: 5rem;
+    box-shadow: 0 .3rem 1rem rgba(0, 0, 0, .3);
+    cursor: pointer;
+    font-size: 2rem;
+    transition: .2s;
+}
+
+.about .row .content button:hover {
+    letter-spacing: .2rem;
+    opacity: .8;
+}
+
+.about .row {
+    flex-flow: column-reverse;
+}
+
+.about .row .image img{
+    height: 60vh;
+    width: 90vw;
+}
+
+.about .row .content p{
+    padding-top: 0 2.5rem;
+}
+
+
+/* <-------------------------------teacher section start---------------------> */
+
+
+.teacher {
+    background: #e9ebf2;
+
+}
+
+.teacher .card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem ;
+}
+
+.teacher .card-container .card {
+    padding: 2rem;
+    margin: 2rem;
+    background: #fff;
+    text-align: center;
+    width: 28rem;
+    box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .3);
+}
+
+.teacher .card-container .card img{
+    height: 30rem;
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale();
+    transition: .2s;
+
+}
+.teacher .card-container .card:hover img{
+    filter: grayscale(0);
+
+
+}
+.teacher .card-container .card h3{
+    color: var(--pink);
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+.teacher .card-container .card p{
+    font-size: 1.7rem;
+    color: #666;
+
+}
+.teacher .card-container .card .icons a{
+    font-size: 1.9rem;
+    padding:1.5rem .5rem;
+    color:rgb(88, 88, 238);
+}
+.teacher .card-container .card .icons a:hover{
+    color: var(--pink);
+}
+
+
+/* <--------------------------------teacher section end-----------------------> */
